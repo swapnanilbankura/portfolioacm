@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(12, 12, 116);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main hr{
+    border: 0;
+    background: lavender;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+.firstSection > div{
+   width: 30%;
+}
+.rightSection img{
+    width: 50%;
+    padding:40px;
+    
+}
+.leftSection{
+    font-size: 3rem;
+    
+}
+.purple{
+    color: rgb(142, 58, 220);
+}
+#element{
+    color: rgb(142, 58, 220);;
+}
+.secondSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+   
+}
+.secondSection > div{
+    width: 30%;
+ }
+
+.secondSection h1{
+    font-size: 1.9rem;
+    height: 10vh;
+    
+}
+.aboutme{
+    font-size: 1.5rem;
+    color: white;
+    text-align: justify;
+}
+
+.skill-shower {
+    margin-bottom: 15px; /* Add some spacing between skill showers */
+  }
+  
+  .progress-barhtml {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative; /* Add this line to position the pseudo-element relative to the progress bar */
+}
+.progress-barcss {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative; /* Add this line to position the pseudo-element relative to the progress bar */
+}
+.progress-barjs {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative; /* Add this line to position the pseudo-element relative to the progress bar */
+}
+
+.skill-level {
+    position: absolute; /* Position the skill level text absolutely within the progress bar */
+    top: 0; /* Align the text to the top of the progress bar */
+    right: 0; /* Align the text to the right side of the progress bar */
+    color: #fff;
+    font-weight: bold;
+    transition: width 0.5s ease;
+}
+
+.progress-barhtml:after {
+    content: "";
+    display: block;
+    width: 90%; /* Set the initial width to match the skill level (80%) */
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.5s ease;
+}
+.progress-barcss:after {
+    content: "";
+    display: block;
+    width: 77%; /* Set the initial width to match the skill level (80%) */
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.5s ease;
+}
+.progress-barjs:after {
+    content: "";
+    display: block;
+    width: 60%; /* Set the initial width to match the skill level (80%) */
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.5s ease;
+}
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0; /* Adjust margin as needed */
+}
+
+.thirdSection h1 {
+    font-size: 1.9rem;
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    max-width: 1200px; /* Set a max-width to limit the width of the projects container */
+    margin-top: 30px; /* Add margin at the top */
+}
+.project a{
+    text-decoration: none   ;
+}
+
+.project-item {
+    flex: 1 0 40%; /* Set the flex properties to control item width and allow wrapping */
+    margin: 20px; /* Adjust margin as needed */
+    text-align: center;
+}
+
+.project-item img {
+    width: 20%; /* Adjust image width */
+    max-width: 300px; /* Limit maximum image width */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+.project-text {
+    color: white;
+    margin-top: 10px; /* Add margin at the top */
+    text-align: center; /* Center the text */
+}
+
+
+
+.fourthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.fourthSection h1 {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+.blogs a{
+    text-decoration: none;
+}
+
+.blog-item {
+    flex: 1 0 40%;
+    margin: 20px;
+    text-align: center;
+}
+
+.blog-item img {
+    width: auto; /* Set width to auto to maintain aspect ratio */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.blog-text {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.fifthSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.fifthSection h1 {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+.Contacts {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    max-width: 1200px;
+    margin-top: 30px;
+}
+.Contacts a{
+    text-decoration: none;
+}
+
+.Contact-item {
+    flex: 1 0 auto; /* Set flex-grow to allow items to grow equally */
+    margin: 0 10px; /* Adjust margin between items */
+    text-align: center;
+}
+
+.Contact-item img {
+    width: auto; /* Set width to auto to maintain aspect ratio */
+    height: 100px; /* Set a fixed height for uniformity */
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.Contact-text {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.214);
+    
+    height: 120px;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer>div{
+    width: 1px;
+}
+.footer-first{
+    color: rgb(208, 205, 205);
+    display: flex;
+    width: auto;
+
+}
+.footer-second{
+    color: rgb(208, 205, 205);
+}
+.footer-third{
+    color: rgb(208, 205, 205);
+}
+.footer-fourth{
+    color: rgb(208, 205, 205);
+    display: flex;
+}
+.footer i{
+
+    text-decoration: none; /* Apply text-decoration: none; to Font Awesome icons */
+    border-radius: 50%;
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none !important;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a:visited,
+.footer a:visited {
+    color: inherit; /* Set the color to inherit from the parent element */
+}
+nav ul li a:hover{
+    color: yellow;
+    font-size: 1.1rem;
+}
